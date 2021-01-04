@@ -81,7 +81,7 @@
     "clean": "gatsby clean",
     "build": "gatsby build --log-pages",
     "build:test": "GATSBY_ENV=test gatsby build",
-    "develop": "gatsby develop -p 3000",
+    "develop": "GATSBY_ENV=example gatsby develop -p 3000",
     "lint": "yarn run lint:ts && yarn run prettier:check && yarn run lint:docs",
     "lint:ts": "tsc --skipLibCheck",
     "lint:docs": "bin/lint-docs.ts",
